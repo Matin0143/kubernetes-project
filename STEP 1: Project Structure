@@ -1,0 +1,19 @@
+flask-express-k8s/
+│
+├── frontend-flask/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── backend-express/
+│   ├── server.js
+│   ├── package.json
+│   └── Dockerfile
+│
+├── k8s/
+│   ├── flask-deployment.yaml
+│   ├── flask-service.yaml
+│   ├── express-deployment.yaml
+│   └── express-service.yaml
+│
+└── README.md
