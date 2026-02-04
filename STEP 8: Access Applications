@@ -1,0 +1,2 @@
+minikube service flask-service
+minikube service express-service
